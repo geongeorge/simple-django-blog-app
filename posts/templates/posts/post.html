@@ -1,0 +1,13 @@
+{% extends 'posts/layout.html' %}
+
+{% block content %}
+<h3 class="center-align red lighten-3">{{title}}</h3>
+<div class="container">
+    <p class="z-depth-2" style="padding:10px; border-radius:4px;">
+        {{body}}
+    </p>
+    <code>Date: {{date}}</code>
+    <br>
+    <a href="/posts" class="btn">Back</a>
+</div>
+{% endblock %}
