@@ -1,8 +1,22 @@
 # Simple Django Blog App
 
-A simple blog made with django framework
+A simple blog made with django framework and mysql
 
-##🚀 To Run Server:
+## 🚀 To Start Server:
+
+Create a database in mysql and edit `settings.py`
+```
+DATABASES = {
+    'default': {
+        'ENGINE' : 'django.db.backends.mysql',
+        'NAME' : 'djangoproject',
+        'USER' : 'root',
+        'PASSWORD' : '',
+        'HOST' : 'localhost',
+        'PORT' : ''
+    }
+}
+```
 
 Create a Virtual environment(Optional but recommended)
 ```
